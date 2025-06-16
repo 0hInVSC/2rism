@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poetsen+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1, h6 {
+    color: white;
+}
+
+.all-content {
+    max-width: 1360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px
+}
+
+#logo-size {
+    height: 36px;
+    width: 88px;
+}
+
+.header-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    font-weight: 200;
+    font-size: 14px;
+    margin-left: 217px;
+    margin-right: 217px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 185px;
+    background-image: url(images/bg-image.svg);
+    background-size: cover;
+    
+}
+
+#btn-globe {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse ;
+    justify-content: center;
+    margin-top: 32px;
+    border-radius: 10px;
+    height: 64px;
+    width: 240px;;
+    background-color: #7B61FF;
+}
+
+svg {
+    margin-right: 6px;
+}
+
+footer {
+
+}
