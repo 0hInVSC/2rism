@@ -7,7 +7,7 @@
 }
 
 body {
-    
+    background-image: url(images/bg-image.svg);
 }
 
 a {
@@ -15,7 +15,7 @@ a {
     color: white;
 }
 
-h1, h6 {
+p, h1, h2, h3, h4, h5 h6 {
     color: white;
 }
 
@@ -31,6 +31,10 @@ header {
     align-items: center;
     justify-content: center;
     margin-top: 32px
+}
+
+.user {
+    color: white;
 }
 
 #logo-size {
@@ -55,19 +59,20 @@ header {
 }
 
 main {
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.main-content {
+.top-main-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-top: 185px;
-    background-image: url(images/bg-image.svg);
     background-size: cover;
     
 }
@@ -84,8 +89,49 @@ main {
     background-color: #7B61FF;
 }
 
-svg {
+.top-main-inf {
+    margin-top: 225px;
+    display: flex;
+    gap: 100px;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px 30px 20px 30px;
+}
+
+.top-main-inf h3{
+    padding-top: 5px;
+    color: black;
+    font-weight: 600;
+
+}
+
+.top-main-inf  p {
+    padding-top: 2px;
+    color: gray;
+}
+
+.top-main-inf-location, .top-main-inf-activity, .top-main-inf-when, .top-main-inf-guests {
+    display: flex;
+    align-items: center;
+}
+
+#top-main-inf-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    border: none;
+    background-color: #7B61FF;
+}
+
+#icon-globe {
     margin-right: 6px;
+}
+
+.top-main-inf-icons {
+    margin-top: 5px;
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
 }
 
 footer {
