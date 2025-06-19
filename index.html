@@ -8,70 +8,152 @@
     <script src="code.js"></script>
 </head>
 <body>
-    <div class="all-content">
-        <header>
-            <div class="logo">
-                <img src="images/logo.svg" id="logo-size">
-            </div>
-            <div class="header-link">
-                <a href="#">home</a>
-                <a href="#">hotels</a>
-                <a href="#">restaurants</a>
-                <a href="#">tours</a>
-                <a href="#">destination</a>
-                <a href="#">activities</a>
-                <a href="#">contact</a>
-            </div>
-            <div class="user">
-                <h6>Hi,<br>"user"</h6>
-                <img src="ava">
-            </div>
-        </header>
-        <main>
-            <div class="top-main-content">
-                <h1>Discover the most engaging places</h1>
-                <a href="#" id="btn-globe"> Discover on 3D Globe
-                    <svg xmlns="http://www.w3.org/2000/svg" id="icon-globe" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
-                </a>
-                <div class="top-main-inf">
-                    <div class="top-main-inf-location">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="top-main-inf-icons" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="orange" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
-                        <div class="top-main-inf-location-txt-group">
-                            <p>Location</p>
-                            <h3>Explore nearby destination</h3>
+    <div class="top-background">
+    <div class="all-top-content">
+            <header>
+                <div class="logo">
+                    <img src="images/logo.svg" id="logo-size">
+                </div>
+                <div class="header-link">
+                    <a href="#">home</a>
+                    <a href="#">hotels</a>
+                    <a href="#">restaurants</a>
+                    <a href="#">tours</a>
+                    <a href="#">destination</a>
+                    <a href="#">activities</a>
+                    <a href="#">contact</a>
+                </div>
+                <div class="user">
+                    <h6>Hi,<br>"user"</h6>
+                    <img src="ava">
+                </div>
+            </header>
+            <main>
+                <div class="top-main-content">
+                    <h1 id="top-main-text">Discover the most engaging places</h1>
+                    <a href="#" id="btn-globe"> Discover on 3D Globe
+                        <svg xmlns="http://www.w3.org/2000/svg" id="icon-globe" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe-icon lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
+                    </a>
+                    <div class="top-main-inf">
+                        <div class="top-main-inf-location">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="top-main-inf-icons" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="orange" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin-icon lucide-map-pin"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+                            <div class="top-main-inf-location-txt-group">
+                                <p>Location</p>
+                                <h3>Explore nearby destination</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="top-main-inf-activity">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="top-main-inf-icons" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="orange" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bike-icon lucide-bike"><circle cx="18.5" cy="17.5" r="3.5"/><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="15" cy="5" r="1"/><path d="M12 17.5V14l-3-3 4-3 2 3h2"/></svg>
-                        <div class="top-main-inf-activity-txt-group">
-                            <p>Activity</p>
-                            <h3>All Activities</h3>
+                        <div class="top-main-inf-activity">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="top-main-inf-icons" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="orange" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bike-icon lucide-bike"><circle cx="18.5" cy="17.5" r="3.5"/><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="15" cy="5" r="1"/><path d="M12 17.5V14l-3-3 4-3 2 3h2"/></svg>
+                            <div class="top-main-inf-activity-txt-group">
+                                <p>Activity</p>
+                                <h3>All Activities</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="top-main-inf-when">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="top-main-inf-icons" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="orange" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar1-icon lucide-calendar-1"><path d="M11 14h1v4"/><path d="M16 2v4"/><path d="M3 10h18"/><path d="M8 2v4"/><rect x="3" y="4" width="18" height="18" rx="2"/></svg>
-                        <div class="top-main-inf-when-txt-group">
-                            <p>When</p>
-                            <h3>Choose a Date</h3>
+                        <div class="top-main-inf-when">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="top-main-inf-icons" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="orange" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar1-icon lucide-calendar-1"><path d="M11 14h1v4"/><path d="M16 2v4"/><path d="M3 10h18"/><path d="M8 2v4"/><rect x="3" y="4" width="18" height="18" rx="2"/></svg>
+                            <div class="top-main-inf-when-txt-group">
+                                <p>When</p>
+                                <h3>Choose a Date</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div class="top-main-inf-guests">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="top-main-inf-icons" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="orange" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-icon lucide-users"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></svg>
-                        <div class="top-main-inf-guests-txt-group">
-                            <p>Guests</p>
-                            <h3>1 guest</h3>
+                        <div class="top-main-inf-guests">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="top-main-inf-icons" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="orange" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users-icon lucide-users"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><path d="M16 3.128a4 4 0 0 1 0 7.744"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></svg>
+                            <div class="top-main-inf-guests-txt-group">
+                                <p>Guests</p>
+                                <h3>1 guest</h3>
+                            </div>
                         </div>
+                        <button id="top-main-inf-btn">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+                        </button>
                     </div>
-                    <button id="top-main-inf-btn">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search-icon lucide-search"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
-                    </button>
+                </div>
+    </div>
+    </div>
+    <div class="all-mid-content">
+        <div class="destination">
+            <h1>Popular Destinations</h1>
+            <div class="all-destination-places">
+                <div class="dst-place">
+                    <img src="images/dst-img1.png">
+                    <h3>Big Sur</h3>
+                    <p>California, USA</p>
+                </div>
+                <div class="dst-places">
+                    <img src="images/dst-img2.png">
+                    <h3>Prescott</h3>
+                    <p>Arizona, USA</p>
+                </div>
+                <div class="dst-places">
+                    <img src="images/dst-img3.png">
+                    <h3>Fort Mayers</h3>
+                    <p>Florida , USA</p>
+                </div>
+                <div class="dst-places">
+                    <img src="images/dst-img4.png">
+                    <h3>Tuscon</h3>
+                    <p>Arizona, USA</p>
+                </div>
+                <div class="dst-places">
+                    <img src="images/dst-img5.png">
+                    <h3>St. Joseph </h3>
+                    <p>Michigan, USA</p>
+                </div>
+                <div class="dst-places">
+                    <img src="images/dst-img6.png">
+                    <h3>Madrid</h3>
+                    <p>Spain</p>
                 </div>
             </div>
-            <div class="destination"></div>
-            <div class="hotels"></div>
-            <div class="travel"></div>
-            <div class="activity"></div>
-            <div class="about-us"></div>
+        </div>
+        <div class="hotels">
+            <h1>Hotels and Restaurants</h1>
+            <div class="all-hotels-rest-places">
+                <div class="hotels-rest-place">
+                    <img src="images/hotels-img1.png">
+                    <h3>Monastero Santa Rosa Hotel</h3>
+                    <p>Salerno, Italy</p>
+                </div>
+                <div class="hotels-rest-place">
+                    <img src="images/hotels-img2.png">
+                    <h3>Grand Hotel Tremezzo</h3>
+                    <p>Lake Como, Italy  </p>
+                </div>
+                <div class="hotels-rest-place">
+                    <img src="images/hotels-img3.png">
+                    <h3>The Oberoi Udaivilas, Udaipur</h3>
+                    <p>Udaipur, India </p>
+                </div>
+                <div class="hotels-rest-place">
+                    <img src="images/hotels-img4.png">
+                    <h3>AKA Beverly Hills</h3>
+                    <p>Los Angeles, United States</p>
+                </div>
+            </div>
+        </div>
+        <div class="travel"></div>
+        <div class="activity">
+            <h1>Activities</h1>
+            <div class="all-activity-places">
+                <div class="activity-place">
+                    <img src="images/activity-img1.png">
+                    <h3>Sailing</h3>
+                </div>
+                <div class="activity-place">
+                    <img src="images/activity-img2.png">
+                    <h3>Climbing</h3>
+                </div>
+                <div class="activity-place">
+                    <img src="images/activity-img3.png">
+                    <h3>Skiing</h3>
+                </div>
+                <div class="activity-place">
+                    <img src="images/activity-img4.png">
+                    <h3>Hiking</h3>
+                </div>
+            </div>
+        </div>
+        <div class="about-us"></div>
         </main>
         <footer></footer>
     </div>
