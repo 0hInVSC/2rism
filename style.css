@@ -191,6 +191,43 @@ main {
     color: gray;
 }
 
+.travel {
+    margin-top: 150px; 
+}
+
+.all-travel-content {
+    display: flex;
+}
+
+.travel-first-tip, .travel-second-tip {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.first-tip-content, .second-tip-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    margin: 0px 27px 0px 27px;
+}
+
+.first-tip-content p, .second-tip-content p {
+    margin-top: 30px;
+    color: gray;
+}
+
+.first-tip-content-info {
+    display: flex;
+    gap: 20px;
+}
+
+.tips-icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
 .activity {
     margin-top: 150px;
 }
