@@ -199,13 +199,13 @@ main {
     display: flex;
 }
 
-.travel-first-tip, .travel-second-tip {
+.travel-first-tip {
     margin-top: 70px;
     display: flex;
     flex-direction: row;
 }
 
-.first-tip-content, .second-tip-content {
+.first-tip-content {
     display: flex;
     flex-direction: column;
     justify-content: space-between ;
@@ -245,6 +245,88 @@ main {
     font-weight: 500;
 }
 
-footer {
+.about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
 
+.about-us-left-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 50px;
+    margin-right: 35px;
+}
+
+.about-us-left-content p {
+    line-height: 1.9;
+    color: rgb(88, 88, 88);
+}
+
+#btn-readmore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    border-radius: 12px;
+    color: #7B61FF;
+    background-color: #F6F4FF;
+    font-size: 17px;
+    font-weight: 450;
+}
+
+#btn-readmore svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+
+#img-about-us {
+    border-radius: 25px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 180px;
+    gap: 150px;
+    padding: 150px 0px 130px 0px;
+    background-color: #F9F9F9;
+}
+
+.ftr-main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.ftr-main p {
+    color: gray;
+}
+
+#footer-logo-size {
+    width: 88px;
+    height: 36px;
+}
+
+.ftr-main-society {
+    display: flex;
+    gap: 35px;
+}
+
+.ftr-about-all, .ftr-company-all, .ftr-support-all {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;    
+}
+
+.ftr-about-all a, .ftr-company-all a, .ftr-support-all a{
+    color: gray;
 }
