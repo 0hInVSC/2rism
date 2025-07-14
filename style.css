@@ -29,7 +29,10 @@ a {
 
 .top-background {
     background-image: url(images/bg-image.svg);
-    padding: 1px 0px 95px 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 1px 0px 80px 0px;
     border-bottom-left-radius: 45px;
     border-bottom-right-radius: 45px;
 }
@@ -40,10 +43,6 @@ header {
     align-items: center;
     justify-content: center;
     margin-top: 32px
-}
-
-.user {
-    color: white;
 }
 
 #logo-size {
@@ -65,6 +64,25 @@ header {
 .user {
     display: flex;
     flex-direction: row;
+    color: white;
+}
+
+.user img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 4px solid #7B61FF;
+
+}
+
+.hi-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+    margin-right: 15px;
+    line-height: 1.5;
+    font-size: 20px;
 }
 
 main {
@@ -250,7 +268,7 @@ main {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 250px;
 }
 
 .about-us-left-content {
@@ -296,7 +314,7 @@ footer {
     justify-content: center;
     margin-top: 180px;
     gap: 150px;
-    padding: 150px 0px 130px 0px;
+    padding: 150px 0px 100px 0px;
     background-color: #F9F9F9;
 }
 
@@ -329,4 +347,59 @@ footer {
 
 .ftr-about-all a, .ftr-company-all a, .ftr-support-all a{
     color: gray;
+}
+
+.ftr-about h3, .ftr-company h3, .ftr-support h3{
+    font-weight: 500;
+}
+
+.ftr-subscribe {
+    display: flex;
+    flex-direction: column;
+}
+
+.ftr-subscribe h3 {
+    font-weight: 500;
+}
+
+.ftr-subscribe-mail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.ftr-subscribe-mail-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:  14px 30px 15px 20px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.ftr-subscribe-mail-content svg{
+    margin-right: 15px;
+}
+
+.ftr-subscribe-mail-text {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+#email {
+    border: none;
+}
+
+#footer-email-submit-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 75px;
+    margin-left: 15px;
+    border-radius: 15px;
+    border: none;
+    background-color: #7B61FF;
 }
